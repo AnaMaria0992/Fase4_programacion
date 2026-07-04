@@ -1,2 +1,18 @@
 2026-07-01 01:07:08 - ERROR - Intento fallido de registro de cliente: Correo 'prueba.com' no válido.
 2026-07-01 01:07:32 - ERROR - Intento fallido: La reserva  ya estaba confirmada.
+2026-07-04 17:29:01 - INFO - Iniciando simulación automática de 10 operaciones.
+2026-07-04 17:29:01 - INFO - Operación evaluada en simulación: 1. Registro Cliente Válido
+2026-07-04 17:29:01 - ERROR - Intento fallido de registro de cliente: Correo 'luis.com' no válido.
+2026-07-04 17:29:01 - INFO - Operación evaluada en simulación: 2. Registro Cliente Inválido (Sin @)
+2026-07-04 17:29:01 - INFO - Operación evaluada en simulación: 3. Creación Servicio Válido
+2026-07-04 17:29:01 - ERROR - Intento de crear servicio 'Sala VIP' con costo inválido: -500
+2026-07-04 17:29:01 - INFO - Operación evaluada en simulación: 4. Creación Servicio Inválido (Costo <= 0)
+2026-07-04 17:29:01 - INFO - Operación evaluada en simulación: 5. Reserva Válida
+2026-07-04 17:29:01 - ERROR - Intento de reserva R11 con duración inválida: 0
+2026-07-04 17:29:01 - INFO - Operación evaluada en simulación: 6. Reserva Inválida (Duración 0)
+2026-07-04 17:29:01 - INFO - Operación evaluada en simulación: 7. Flujo Completo Confirmación
+2026-07-04 17:29:01 - ERROR - Intento fallido: La reserva R13 ya estaba confirmada.
+2026-07-04 17:29:01 - INFO - Operación evaluada en simulación: 8. Error Operación (Confirmar Duplicado)
+2026-07-04 17:29:01 - INFO - Operación evaluada en simulación: 9. Cancelación de Reserva Válida
+2026-07-04 17:29:01 - ERROR - Encadenamiento de excepciones ejecutado en simulación.
+2026-07-04 17:29:01 - INFO - Operación evaluada en simulación: 10. Encadenamiento de Excepciones Avanzado
